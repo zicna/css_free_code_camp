@@ -1,2 +1,16 @@
-body {
+/* * . => prefix for class */
+/* * title => class name */
+/* * id's and classes names are writen with dashes, no uppercase, underscore,.. */
+
+
+.title {
+    color: blue
+}
+
+.subtitle {
+    color: red
+}
+
+#contact-us{
+    color: green;
 }

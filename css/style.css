@@ -13,35 +13,63 @@ h2:hover {
 /* ! selecting childrens of ul */
 
 /* * every li element that is first child  */
-li:first-child {
+/* li:first-child {
     color: steelblue
-}
+} */
 /* * every li element that is last child  */
 
-li:last-child {
+/* li:last-child {
     color: red
-}
+} */
 
-li:nth-child(2){
+/* li:nth-child(2){
     color: green;
-}
+} */
 
 /* * style only li element that is only child  */
-li:only-child {
+/* li:only-child {
     color: blue
-}
+} */
 /* * unvisited link */
-#google-link:link {
+/* #google-link:link {
     coor:blue;
-}
+} */
 /* * link that has been clicked */
-#google-link:visited {
+/* #google-link:visited {
+    color: red;
+} */
+/* * when it's beenig clicked */
+/* #google-link:active {
+    color: green;
+} */
+
+/* ! advanced selectors */
+/*  a tag that comes directly after h2 tag */
+h2 + a {
     color: red;
 }
-/* * when it's beenig clicked */
-#google-link:active {
+
+/* general sibiling  */
+/*  */
+/* every button after textarea with same parent */
+textarea ~ button {
+color: purple;
+}
+/* * child selector */
+/* ever li inside ul element */
+/* pseudo selectors have higher specificity than advanced selectors */
+
+/* * select all li that are descendant of ul */
+ul li {
     color: green;
 }
+/* * select all li that are children of ul */
+ul > li {
+    color: red
+    }
+
+
+
 
 
 

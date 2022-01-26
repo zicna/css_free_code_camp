@@ -3,13 +3,13 @@
 /* * id's and classes names are writen with dashes, no uppercase, underscore,.. */
 
 
-h2 {
+/* h2 {
     color: red;
 }
 
 h2:hover {
     color: orange;
-}
+} */
 /* ! selecting childrens of ul */
 
 /* * every li element that is first child  */
@@ -45,46 +45,48 @@ h2:hover {
 
 /* ! advanced selectors */
 /*  a tag that comes directly after h2 tag */
-h2 + a {
+/* h2 + a {
     color: red;
-}
+} */
 /* general sibiling  */
 /*  */
 /* every button after textarea with same parent */
-textarea ~ button {
+/* textarea ~ button {
 color: purple;
-}
+} */
 /* * child selector */
 /* ever li inside ul element */
 /* pseudo selectors have higher specificity than advanced selectors */
 
 /* * select all li that are descendant of ul */
-ul li {
+/* ul li {
     color: green;
-}
+} */
 /* * select all li that are children of ul */
-ul > li {
+/* ul > li {
     color: red
-    }
+    } */
 
     /* ! attribute selector */
     /* * element[attribute=value]{
     } */
 
-h2[class=subtitle] {
+/* h2[class=subtitle] {
     color: blue;
-}
+} */
 /* * select every img with src attribute that starts with ../public/ */
 /* '^' - starts */
 /* '$' - ends */
 /* '*' - contains */
 /* '~' - selector is used to select elements with an attribute value containing a specified word. */
 /* '|=' - selector is used to select elements with the specified attribute, whose value can be exactly the specified value, or the specified value followed by a hyphen (-). */
-img[src^="../public/"]{
+/* img[src^="../public/"]{
     border: 10px solid black;
 }
 
 #services {
     color: green
-}
+} */
 
+
+/* ! ***************************************************************** */

@@ -48,7 +48,6 @@ h2:hover {
 h2 + a {
     color: red;
 }
-
 /* general sibiling  */
 /*  */
 /* every button after textarea with same parent */
@@ -68,13 +67,21 @@ ul > li {
     color: red
     }
 
+    /* ! attribute selector */
+    /* * element[attribute=value]{
+    } */
 
-
-
-
-
-.subtitle {
+h2[class=subtitle] {
     color: blue;
+}
+/* * select every img with src attribute that starts with ../public/ */
+/* '^' - starts */
+/* '$' - ends */
+/* '*' - contains */
+/* '~' - selector is used to select elements with an attribute value containing a specified word. */
+/* '|=' - selector is used to select elements with the specified attribute, whose value can be exactly the specified value, or the specified value followed by a hyphen (-). */
+img[src^="../public/"]{
+    border: 10px solid black;
 }
 
 #services {

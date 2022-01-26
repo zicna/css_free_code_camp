@@ -3,14 +3,53 @@
 /* * id's and classes names are writen with dashes, no uppercase, underscore,.. */
 
 
-.title {
-    color: blue
+h2 {
+    color: red;
 }
 
-.subtitle {
+h2:hover {
+    color: orange;
+}
+/* ! selecting childrens of ul */
+
+/* * every li element that is first child  */
+li:first-child {
+    color: steelblue
+}
+/* * every li element that is last child  */
+
+li:last-child {
     color: red
 }
 
-#contact-us{
+li:nth-child(2){
     color: green;
 }
+
+/* * style only li element that is only child  */
+li:only-child {
+    color: blue
+}
+/* * unvisited link */
+#google-link:link {
+    coor:blue;
+}
+/* * link that has been clicked */
+#google-link:visited {
+    color: red;
+}
+/* * when it's beenig clicked */
+#google-link:active {
+    color: green;
+}
+
+
+
+.subtitle {
+    color: blue;
+}
+
+#services {
+    color: green
+}
+
